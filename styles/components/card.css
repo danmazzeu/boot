@@ -105,7 +105,5 @@
 }
 
 @media (max-width: 768px) {
-    .card {
-        flex: 1 1 100%;
-    }
+    .card { flex: 1 1 100%; }
 }

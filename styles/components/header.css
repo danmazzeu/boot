@@ -66,7 +66,6 @@ header .infinite-circles-container .infinite-circles span::before {
     animation-delay: calc(0.1s * var(--i));
 }
 
-
 header .infinite-words {
     font-size: 15em;
     font-weight: 600;

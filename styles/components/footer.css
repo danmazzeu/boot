@@ -37,6 +37,6 @@ footer section p {
 
 @media (max-width: 768px) {
     footer { flex-direction: column; }
-    footer section { justify-content: center; };
-    footer section p.center { text-align: center !important; }
+    footer section:nth-child(1) { justify-content: center; }
+    footer section p { text-align: center !important; }
 }
