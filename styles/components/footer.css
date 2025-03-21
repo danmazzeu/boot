@@ -6,7 +6,7 @@ footer {
     width: 100%;
     max-width: 1200px;
     min-height: 200px;
-    padding: 50px 0;
+    padding: 70px 0;
     margin: 0 auto;
 }
 
@@ -14,7 +14,8 @@ footer section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
+    row-gap: 8px;
     width: 100%;
 }
 
