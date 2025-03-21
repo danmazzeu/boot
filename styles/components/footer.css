@@ -5,32 +5,20 @@ footer {
     gap: 30px;
     width: 100%;
     max-width: 1200px;
+    min-height: 200px;
+    padding: 50px 0;
     margin: 0 auto;
-    padding: 20px 20px 70px 20px;
-    border-top: 1px dashed #333;
 }
 
 footer section {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
     width: 100%;
 }
 
-footer section a,
-footer section a.visited {
-    font-size: 1.2em;
-    color: #fff;
-}
-
-footer section a:hover {
-    text-decoration: underline;
-}
-
-footer section p {
-    font-size: 1em;
-    color: #555;
-    line-height: 1.4em;
+footer section span {
     text-align: right;
     width: 100%;
 }
@@ -38,5 +26,5 @@ footer section p {
 @media (max-width: 768px) {
     footer { flex-direction: column; }
     footer section:nth-child(1) { justify-content: center; }
-    footer section p { text-align: center !important; }
+    footer section span { text-align: center !important; }
 }

@@ -47,46 +47,22 @@
     background-color: #000;
 }
 
-.card-container i {
-    font-size: 3em;
-    color: #fff;
-    padding: 5px 10px;
-    width: fit-content;
-    border-radius: 10px;
-    background-color: #151515;
-}
-
-.card-container h1 {
-    font-size: 2em;
-    line-height: 1.4em;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #fff;
-}
-
-.card-container p {
-    font-size: 1.4em;
-    line-height: 1.4em;
-    font-weight: 300;
-    color: #fff;
-}
-
 .card-container a {
     width: fit-content;
-    font-size: 1.4em;
     border-radius: 5px;
     color: #fff;
     padding: 12px 15px;
-    background-color: #151515;
+    background-color: #202020;
 }
 
 .card-container a:hover,
 .card-container a:active {
     color: #000;
     background-color: #fff;
+    text-decoration: none;
 }
 
-.card-container span {
+.card-gap {
     height: 100%;
 }
 

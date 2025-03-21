@@ -5,7 +5,7 @@ header {
     align-items: center;
     gap: 50px;
     width: 100%;
-    padding: 50px 20px;
+    padding: 50px 0;
     min-height: 100vh;
 }
 
@@ -22,7 +22,7 @@ header .infinite-circles-container {
 
 header .infinite-circles-container .infinite-circles {
     position: relative;
-    width: 150px;
+    width: 110px;
     margin: -7.5px;
 }
 
@@ -67,7 +67,7 @@ header .infinite-circles-container .infinite-circles span::before {
 }
 
 header .infinite-words {
-    font-size: 15em;
+    font-size: 10em;
     font-weight: 600;
     color: #fff;
 }
@@ -90,7 +90,7 @@ header .infinite-arrow {
 }
 
 header .infinite-arrow i {
-    font-size: 3.5em;
+    font-size: 3em;
     color: #fff;
 }
 

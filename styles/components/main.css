@@ -5,8 +5,7 @@ main {
     width: 100%;
     max-width: 1200px;
     min-height: 100vh;
-    margin: 0 auto;
-    padding: 30px 20px;
+    margin: 50px auto;
 }
 
 main section {

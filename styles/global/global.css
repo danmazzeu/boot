@@ -26,6 +26,7 @@ body {
 html { scroll-behavior: smooth; }
 
 body {
+    padding: 0 20px;
     background-color: #000;
     -webkit-user-select: none !important;
     -moz-user-select: none !important;
@@ -36,6 +37,40 @@ body {
 ul { list-style: none; }
 
 br { height: 1em; }
+
+h1 {
+    color: #fff;
+    font-size: 1.8em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 100%;
+}
+
+p { width: 100%; }
+
+p, a, a:visited {
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+
+a, a:visited {
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #777;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: 300;
+    width: 100%;
+}
 
 button {cursor: pointer; }
 
