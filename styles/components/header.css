@@ -81,7 +81,7 @@ header .infinite-description {
 
 header .infinite-arrow {
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
