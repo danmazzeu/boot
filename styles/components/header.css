@@ -10,7 +10,8 @@ header {
 
 header .infinite-words-container {
     display: flex;
-    gap: 30px;
+    flex-wrap: nowrap !important;
+    gap: 20px;
     transition: none;
 }
 
@@ -88,7 +89,7 @@ header .infinite-arrow {
 }
 
 header .infinite-arrow i {
-    font-size: 3em;
+    font-size: 3.5em;
     color: #fff;
 }
 
