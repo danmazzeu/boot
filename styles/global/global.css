@@ -49,3 +49,20 @@ textarea:disabled {
     background-color: #f4f4f4 !important;
     cursor: default !important;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #222;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+}
