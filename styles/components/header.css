@@ -5,6 +5,7 @@ header {
     align-items: center;
     gap: 50px;
     width: 100%;
+    padding: 50px 20px;
     min-height: 100vh;
 }
 
@@ -77,6 +78,7 @@ header .infinite-description {
     font-weight: 300;
     color: #fff;
     font-style: italic;
+    min-height: 2em;
 }
 
 header .infinite-arrow {
@@ -101,6 +103,10 @@ header .infinite-arrow i {
 @keyframes jumpArrow {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(20px); }
+}
+
+@media all and (max-height: 500px) {
+    header .infinite-arrow { display: none; }
 }
 
 @media all and (max-width: 600px) {
