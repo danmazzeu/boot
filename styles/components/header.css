@@ -78,9 +78,10 @@
 }
 
 .infinite-description {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 300;
     color: #fff;
+    font-style: italic;
 }
 
 @keyframes infinimate {
@@ -93,7 +94,7 @@
     .infinite-words-container { gap: 15px; }
     .infinite .infinite-circles-container .infinite-circles { width: 80px; }
     .infinite-words { font-size: 7em; }
-    .infinite-description { font-size: 1.5em; }
+    .infinite-description { font-size: 1.4em; }
 
     @keyframes infinimate {
         0% { transform: scale(0.7); }
