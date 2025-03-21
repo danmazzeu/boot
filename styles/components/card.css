@@ -1,0 +1,103 @@
+.card {
+    flex: 1 1 300px;
+    position: relative;
+    overflow: hidden;
+    padding: 2px;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 250px;
+    height: fit-content;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    width: 100px;
+    height: 200%;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(255, 255, 255, 0.8) 50%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(255, 255, 255, 0.8) 50%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    transform: translate(0);
+    animation: rotateBorder 5s linear infinite;
+    transform-origin: top center;
+    opacity: 1;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.card-container i {
+    font-size: 3em;
+    color: #fff;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #151515;
+}
+
+.card-container h1 {
+    font-size: 2em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+}
+
+.card-container p {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-container a {
+    width: fit-content;
+    font-size: 1.4em;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 15px;
+    background-color: #151515;
+}
+
+.card-container a:hover,
+.card-container a:active {
+    color: #000;
+    background-color: #fff;
+}
+
+@keyframes rotateBorder {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%;
+    }
+}

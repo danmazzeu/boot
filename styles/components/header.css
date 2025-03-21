@@ -4,41 +4,41 @@
     box-sizing: border-box;
 }
 
-.infinite {
+header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    width: 100%;
     min-height: 100vh;
-    background-color: #000;
 }
 
-.infinite-words-container {
+header .infinite-words-container {
     display: flex;
     gap: 30px;
     transition: none;
 }
 
-.infinite-circles-container {
+header .infinite-circles-container {
     display: flex;
 }
 
-.infinite .infinite-circles-container .infinite-circles {
+header .infinite-circles-container .infinite-circles {
     position: relative;
     width: 150px;
     margin: -7.5px;
 }
 
-.infinite .infinite-circles-container .infinite-circles:nth-child(2) {
+header .infinite-circles-container .infinite-circles:nth-child(2) {
     transform: rotate(-180deg);
 }
 
-.infinite .infinite-circles-container .infinite-circles:nth-child(2) span::before {
+header .infinite-circles-container .infinite-circles:nth-child(2) span::before {
     animation-delay: calc(-0.1s * var(--i));
 }                                                                                           
 
-.infinite .infinite-circles-container .infinite-circles span {
+header .infinite-circles-container .infinite-circles span {
     position: absolute;
     top: 0;
     left: 0;
@@ -49,7 +49,7 @@
     align-items: center;
 }
 
-.infinite .infinite-circles-container .infinite-circles span::before {
+header .infinite-circles-container .infinite-circles span::before {
     content: '';
     position: absolute;
     right: 0;
@@ -71,13 +71,13 @@
 }
 
 
-.infinite-words {
+header .infinite-words {
     font-size: 15em;
     font-weight: 600;
     color: #fff;
 }
 
-.infinite-description {
+header .infinite-description {
     font-size: 1.8em;
     font-weight: 300;
     color: #fff;
@@ -91,10 +91,10 @@
 
 
 @media all and (max-width: 600px) {
-    .infinite-words-container { gap: 15px; }
-    .infinite .infinite-circles-container .infinite-circles { width: 80px; }
-    .infinite-words { font-size: 7em; }
-    .infinite-description { font-size: 1.4em; }
+    header .infinite-words-container { gap: 15px; }
+    header .infinite-circles-container .infinite-circles { width: 80px; }
+    header .infinite-words { font-size: 7em; }
+    header .infinite-description { font-size: 1.4em; }
 
     @keyframes infinimate {
         0% { transform: scale(0.7); }
