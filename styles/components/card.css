@@ -19,9 +19,9 @@
     background: linear-gradient(
         90deg,
         rgba(0, 0, 0, 0) 0%,
-        rgba(255, 255, 255, 0.8) 50%,
-        rgba(255, 255, 255, 1) 50%,
-        rgba(255, 255, 255, 1) 50%,
+        var(--primary) 50%,
+        var(--primary) 50%,
+        var(--primary) 50%,
         rgba(0, 0, 0, 0) 100%
     );
     transform: translate(0);
@@ -50,7 +50,7 @@
 .card-container a {
     width: fit-content;
     border-radius: 5px;
-    color: #fff;
+    color: var(--primary);
     padding: 12px 15px;
     background-color: #202020;
 }
@@ -58,7 +58,7 @@
 .card-container a:hover,
 .card-container a:active {
     color: #000;
-    background-color: #fff;
+    background-color: var(--primary);
     text-decoration: none;
 }
 

@@ -39,7 +39,7 @@ ul { list-style: none; }
 br { height: 1em; }
 
 h1 {
-    color: #fff;
+    color: var(--primary);
     font-size: 1.8em;
     line-height: 1.5em;
     text-transform: uppercase;
@@ -47,10 +47,15 @@ h1 {
     width: 100%;
 }
 
-p { width: 100%; }
+p {
+    color: var(--secondary);
+    font-size: 1.4em;
+    line-height: 1.3em;
+    font-weight: 300;
+}
 
-p, a, a:visited {
-    color: #fff;
+a, a:visited {
+    color: var(--primary);
     font-size: 1.4em;
     line-height: 1.3em;
     font-weight: 300;
@@ -65,7 +70,7 @@ a:hover {
 }
 
 span {
-    color: #777;
+    color: var(--tertiary);
     font-size: 1.2em;
     line-height: 1.4em;
     font-weight: 300;
